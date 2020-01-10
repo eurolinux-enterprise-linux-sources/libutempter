@@ -3,7 +3,7 @@
 Summary: A privileged helper for utmp/wtmp updates
 Name: libutempter
 Version: 1.1.6
-Release: 2%{?dist}
+Release: 4%{?dist}
 License: LGPLv2+
 Group: System Environment/Libraries
 URL: ftp://ftp.altlinux.org/pub/people/ldv/utempter
@@ -77,6 +77,12 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/*.a
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.1.6-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1.6-3
+- Mass rebuild 2013-12-27
+
 * Thu Jan 24 2013 Miroslav Lichvar <mlichvar@redhat.com> - 1.1.6-2
 - compile with PIE and RELRO flags (#853176)
 
